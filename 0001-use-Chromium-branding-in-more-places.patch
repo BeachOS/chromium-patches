@@ -1,0 +1,34 @@
+From 1b7e0591671fae333e4832ab2eef2d3f1ec6562d Mon Sep 17 00:00:00 2001
+From: Daniel Micay <danielmicay@gmail.com>
+Date: Sun, 6 Aug 2017 12:45:14 -0400
+Subject: [PATCH 01/19] use Chromium branding in more places
+
+---
+ chrome/browser/ui/android/strings/android_chrome_strings.grd | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/chrome/browser/ui/android/strings/android_chrome_strings.grd b/chrome/browser/ui/android/strings/android_chrome_strings.grd
+index d1b673ab34..161d10efe7 100644
+--- a/chrome/browser/ui/android/strings/android_chrome_strings.grd
++++ b/chrome/browser/ui/android/strings/android_chrome_strings.grd
+@@ -1763,7 +1763,7 @@ Your Google account may have other forms of browsing history like searches and a
+ 
+       <!-- About Chrome preferences -->
+       <message name="IDS_PREFS_ABOUT_CHROME" desc="Title for the About Chrome page. [CHAR_LIMIT=32]">
+-        About Chrome
++        About Chromium
+       </message>
+       <message name="IDS_LEGAL_INFORMATION_SUMMARY" desc="Summary for legal information" meaning="Android">
+         Copyright <ph name="year">%1$d<ex>2014</ex></ph> Google LLC. All rights reserved.
+@@ -1816,7 +1816,7 @@ Your Google account may have other forms of browsing history like searches and a
+       </message>
+ 
+       <message name="IDS_POWERED_BY_CHROME_MESSAGE" desc="A message indicating that the current page is running in Chrome.">
+-        Powered by Chrome
++        Powered by Chromium
+       </message>
+ 
+       <!-- Sync strings in account management dialog -->
+-- 
+2.35.3
+
